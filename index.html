@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Floricultura</title>
+</head>
+<body>
+    <img src="img/florzinha.png" width="140" height="140"/>
+    <div class="botoes">
+
+    <input id="descricao" type="text" placeholder="descrição">
+    <input id="cor" type="text" placeholder="Cor">
+    <input id="tipoFlor" type="text" placeholder="Tipo da Flor">
+    <input id="data" type="date" placeholder="data">
+    <input id="preco" type="number" placeholder="Preço">
+
+    <button onclick="cadastrar()">Cadastrar</button>
+</div>
+ <div class="tabela">
+    <table id="tabela" border="1">
+     <tr>
+        <th>Descrição</th>
+        <th>Cor</th>
+        <th>Tipo da flor</th>
+        <th>Data</th>
+        <th>Preço</th>
+     </tr>
+    </table>
+</div>
+</body>
+<script src="Floricultura.js"></script>
+<script src="flor.js"></script>
+<script src="index.js"></script>
+</html>
